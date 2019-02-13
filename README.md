@@ -1,2 +1,3 @@
 # EE551-Project
-This is for EE551 class in Spring2019 
+This is for EE551 project in Spring2019 
+
