@@ -42,5 +42,5 @@
              Week14 :Final check with the project
              
 ## Expected Result
-            ![ball1] (https://github.com/mengjiemin/EE551-Project/blob/master/ball1.png)
+            ![Image Text] (https://github.com/mengjiemin/EE551-Project/blob/master/ball1.png)
 
