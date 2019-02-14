@@ -45,4 +45,4 @@
              Week14 :Final check with the project
              
              
-![snip](https://github.com/mengjiemin/EE551-Project/blob/master/pics/Snip20150703_4.png)
+![snip](https://github.com/mengjiemin/EE551-Project/blob/master/pics/ball1.png)
