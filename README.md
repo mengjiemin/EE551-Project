@@ -44,6 +44,6 @@
              Week13 :Improve and refine the total project
              Week14 :Final check with the project
              
-![ball](https://github.com/mengjiemin/EE551-Project/blob/master/pics/Snip20150703_4.png)
-
+## Expected Result
+             ![ball](https://github.com/mengjiemin/EE551-Project/blob/master/pics/ball1.png)
 
