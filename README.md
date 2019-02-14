@@ -1,5 +1,7 @@
 # Demo for Brickbat Game
 
+
+
 **This is for EE551 project in Spring2019**
 
 
@@ -32,7 +34,8 @@
              or "Game Over"
                              Draw the bricks and ball and the back plate
                              
-             Week7 ~ Week8 :  Codes about how to make the ball and the back plate move and ball need to bounce when it touch bricks and                boundary or the back plate
+             Week7 ~ Week8 :  Codes about how to make the ball and the back plate move and ball need to bounce when it touch bricks 
+             andboundary or the back plate
              
              Week9 ~ Week12 : Codes for logistic with the game as when the ball bounce at bricks, bricks will disappear and the screen wil
              show "You Win the Game" when you break all bricks or "Game Over" when the back plate cannot get the ball when the ball bounce
@@ -41,5 +44,6 @@
              Week13 :Improve and refine the total project
              Week14 :Final check with the project
              
-            ![Image Text] (https://github.com/mengjiemin/EE551-Project/blob/master/ball1.png)
+![ball1] (https://github.com/mengjiemin/EE551-Project/blob/raw/master/pics/ball1.png)
+
 
