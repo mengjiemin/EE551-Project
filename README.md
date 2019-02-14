@@ -21,8 +21,24 @@
  
 ## Game Logic:
              1. When the ball bounce at bricks they will disappear
-             2. When the back plate cannot catch the ball the screen will show "Game Over"
+             2. When the back plate cannot catch the ball the screen wil8l show "Game Over"
              3. When all bricks disappear with the hit from the ball the screen wil show "You Win The Game"
              
+             
+## Plan:
+             ~Week4 : Proposal of my project
+             
+             Week5 ~ Week6 : Seperate the whole coding work into many pieces : Draw welcome page and Final page as "You Win the Game"
+             or "Game Over"
+                             Draw the bricks and ball and the back plate
+                             
+             Week7 ~ Week8 :  Codes about how to make the ball and the back plate move and ball need to bounce when it touch bricks and                boundary or the back plate
+             
+             Week9 ~ Week12 : Codes for logistic with the game as when the ball bounce at bricks, bricks will disappear and the screen wil
+             show "You Win the Game" when you break all bricks or "Game Over" when the back plate cannot get the ball when the ball bounce
+             back
+             
+             Week13 :Improve and refine the total project
+             Week14 :Final check with the project
 
 
