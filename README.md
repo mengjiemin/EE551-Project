@@ -3,7 +3,9 @@
 This is for EE551 project in Spring2019 
 ---------------------------------------
 
-##Introduction:
+Introduction:
+
+=============
              This game will major show some basics function for Brickbat Game and the user can control and play the game
              
              
