@@ -1,6 +1,6 @@
 # Demo for Brickbat Game
 
-![ball1] (https://github.com/mengjiemin/EE551-Project/blob/master/pics/ball1.png)
+![ball1] ("https://github.com/mengjiemin/EE551-Project/blob/master/pics/ball1.png")
 
 **This is for EE551 project in Spring2019**
 
