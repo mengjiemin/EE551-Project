@@ -4,11 +4,11 @@ This is for EE551 project in Spring2019
 ---------------------------------------
 
 Introduction:
-    This game will major show some basics function for Brickbat Game and the user can control and play the game
+    *This game will major show some basics function for Brickbat Game and the user can control and play the game
              
              
 Packages for this game:
-    Major use "pygame" package to achieve and "system" "time" "random" packages will also need to be imported
+    *Major use "pygame" package to achieve and "system" "time" "random" packages will also need to be imported
              
             
 ##What I will do for the game:-
