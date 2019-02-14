@@ -1,6 +1,6 @@
 # Demo for Brickbat Game
 
-![ball1] ("https://github.com/mengjiemin/EE551-Project/blob/master/pics/ball1.png")
+
 
 **This is for EE551 project in Spring2019**
 
@@ -44,6 +44,6 @@
              Week13 :Improve and refine the total project
              Week14 :Final check with the project
              
-    
+![ball1] (https://github.com/mengjiemin/EE551-Project/blob/master/pics/ball1.png)
 
 
