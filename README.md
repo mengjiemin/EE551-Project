@@ -45,4 +45,4 @@
              Week14 :Final check with the project
              
              
-  ![ball1](https://github.com/mengjiemin/EE551-Project/blob/master/pics/ball1.png)
+             ![ball1](https://github.com/mengjiemin/EE551-Project/blob/master/pics/ball1.png)
