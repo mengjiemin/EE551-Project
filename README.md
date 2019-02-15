@@ -6,6 +6,7 @@
 
 
 ## Introduction:
+    The project is built with Python3.6
     This game will major show some basics function for Brickbat Game and the user can control and play the game
              
              
@@ -34,7 +35,7 @@
              "You Win the Game" or "Game Over"
                              Draw the bricks and ball and the back plate
                              
-             Week7 ~ Week8 :  Codes about how to make the ball and the back plate move and ball need to bounce when 
+             Week7 ~ Week8 : Codes about how to make the ball and the back plate move and ball need to bounce when 
              it touch bricks and boundary or the back plate
              
              Week9 ~ Week12 : Codes for logistic with the game as when the ball bounce at bricks, bricks will disappear 
