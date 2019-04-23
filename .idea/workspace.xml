@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591d0a7a-c1b5-4ce5-be61-5a4ba8fa6579" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ball1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Break the Brick.py" beforeDir="false" afterPath="$PROJECT_DIR$/Break_the_Brick.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +13,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/EE551_Project$scratch_13__1_.coverage" NAME="scratch_13 (1) Coverage Results" MODIFIED="1555702754936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/EE551_Project$project.coverage" NAME="project Coverage Results" MODIFIED="1555771036406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/untitled" />
+    <SUITE FILE_PATH="coverage/EE551_Project$project.coverage" NAME="project Coverage Results" MODIFIED="1556037145394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/untitled" />
+    <SUITE FILE_PATH="coverage/EE551_Project$Break_the_Brick.coverage" NAME="Break the Brick Coverage Results" MODIFIED="1556061933975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EE551_Project$scratch_13.coverage" NAME="scratch_13 Coverage Results" MODIFIED="1555701166337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -20,31 +22,34 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="6" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="7" />
           <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1575" />
+          <entry key="dummy" value="2" />
+          <entry key="py" value="2658" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="999" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="2082" />
           <entry key="Scratch" value="576" />
         </counts>
       </usages-collector>
@@ -52,15 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -71,24 +67,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/untitled/project.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Break_the_Brick.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1488">
-              <caret line="102" column="46" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="46" />
+            <state relative-caret-position="264">
+              <caret line="340" column="42" selection-start-line="340" selection-start-column="42" selection-end-line="340" selection-end-column="42" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#120#133#0" expanded="true" />
+                <marker date="1556061850000" expanded="true" signature="11357:11362" ph="..." />
+                <marker date="1556061850000" expanded="true" signature="11587:11592" ph="..." />
+                <marker date="1556061850000" expanded="true" signature="11705:11710" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Downloads/Python_Arkanoid-master/drew.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,6 +102,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py" />
         <option value="$PROJECT_DIR$/scratch_13.py" />
         <option value="$USER_HOME$/PycharmProjects/untitled/project.py" />
+        <option value="$PROJECT_DIR$/Break the Brick.py" />
+        <option value="$PROJECT_DIR$/window.py" />
+        <option value="$PROJECT_DIR$/Break_the_Brick.py" />
       </list>
     </option>
   </component>
@@ -117,10 +121,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="23" />
-    <option name="width" value="1260" />
-    <option name="height" value="712" />
+    <option name="x" value="16" />
+    <option name="y" value="31" />
+    <option name="width" value="1267" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -179,7 +183,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.project">
+  <component name="RunManager" selected="Python.Break the Brick">
+    <configuration name="Break the Brick" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE551-Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Break_the_Brick.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="project" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE551-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,9 +276,11 @@
       <item itemvalue="Python.project" />
       <item itemvalue="Python.scratch_13" />
       <item itemvalue="Python.scratch_13 (1)" />
+      <item itemvalue="Python.Break the Brick" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Break the Brick" />
         <item itemvalue="Python.project" />
         <item itemvalue="Python.scratch_13 (1)" />
         <item itemvalue="Python.scratch_13" />
@@ -273,15 +301,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="1260" height="712" extended-state="0" />
+    <frame x="16" y="31" width="1267" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25779969" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21632653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32692307" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -308,10 +336,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/drew.py" />
+    <entry file="file://$PROJECT_DIR$/scratch_13.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/untitled/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="102" column="46" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Python_Arkanoid-master/drew.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/551_project/ascii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -323,31 +370,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drew.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scratch_13.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943126/pygame/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="130">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/untitled/project.py">
+    <entry file="file://$PROJECT_DIR$/window.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1488">
-          <caret line="102" column="46" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Python_Arkanoid-master/drew.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Break_the_Brick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="340" column="42" selection-start-line="340" selection-start-column="42" selection-end-line="340" selection-end-column="42" />
+          <folding>
+            <element signature="e#120#133#0" expanded="true" />
+            <marker date="1556061850000" expanded="true" signature="11357:11362" ph="..." />
+            <marker date="1556061850000" expanded="true" signature="11587:11592" ph="..." />
+            <marker date="1556061850000" expanded="true" signature="11705:11710" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -6,16 +6,24 @@ from pygame.locals import *
 import sys, random, time, math
 
 
+# pygame.Surface
+
+WINDOW_LENGTH = 800
+WINDOW_WIDTH = 600
+text_color = (255, 0, 255)
+
+
 class Break_Brick():
     # Class for the game's window
     def __init__(self, window_length, window_width,game_window,window_color):
         # Draw the window of the game，define the size of the window
-        self.window_length = 800
-        self.window_width = 600
+        self.window_length = WINDOW_LENGTH
+        self.window_width = WINDOW_WIDTH
         self.game_window = pygame.display.set_mode((self.window_length, self.window_width))
 
         # Write the title of the game
         pygame.display.set_caption("Break the Brick")
+
 
         # Define the color of the window
         self.window_color = (0, 0, 0)
@@ -27,7 +35,7 @@ class Break_Brick():
 
 class Ball():
     #  Class for the ball
-    def __init__(self,color,move_x,move_y,R,*args, **kw):
+    def __init__(self,color,move_x,move_y,R):
         # Define the color and move rate of x-axis and y-axis and the radius of the ball
         self.move_x = 6
         self.move_y = 6
@@ -50,7 +58,7 @@ class Ball():
         self.ball_x += self.move_x
         self.ball_y -= self.move_y
 
-        # 调用碰撞检测函数
+        # Use collision function
         self.ball_window()
         self.ball_rect()
 
@@ -124,7 +132,7 @@ class Ball_Collision():
             math.pow(self.closestpoint_x - self.ball_x, 2) + math.pow(self.closestpoint_y - self.ball_y, 2))
 
         # Ball above and on the left of the paddle:
-        if self.distance < self.R and self.collision_sign_y == 1 and (
+        while self.distance < self.R and self.collision_sign_y == 1 and (
                 self.collision_sign_x == 1 or self.collision_sign_x == 2):
             if self.collision_sign_x == 1 and self.move_x > 0:
                 self.move_x = - self.move_x
@@ -212,7 +220,7 @@ class Ball_Collision():
 
 
 class Brick():
-    def __init__(self, brick_color, brick_list,brick_length, brick_width,*args, **kw):
+    def __init__(self, brick_color, brick_list,brick_length, brick_width):
         self.brick_color = (150,0, 255)
         self.brick_list = [[1,1,1,1,1,1,1],[1,1,1,1,1,1,1],[1,1,1,1,1,1,1],[1,1,1,1,1,1,1],[1,1,1,1,1,1,1],
                            [1, 1, 1, 1, 1, 1, 1],[1,1,1,1,1,1,1]]
@@ -253,7 +261,7 @@ class Score():
 
     def countscore(self):
         # Show the score
-        my_score = self.score_font.render(str(self.score), False, (0, 0, 255))
+        my_score = self.score_font.render(str(self.score), False, (255, 100, 150))
         self.game_window.blit(my_score, (10, 15))
 
 
@@ -269,19 +277,48 @@ class Win():
         self.win_sign = 0
 
 
+class First_Page():
+    def __init__(self):
+        self.window_length = WINDOW_LENGTH
+        self.window_width = WINDOW_WIDTH
+        self.game_window = pygame.display.set_mode((self.window_length, self.window_width))
+        self.window_color = (0, 0, 0)
+
+    def Drawtext(self,text,font,game_window,x,y):
+        self.text_obj = font.render(text,1,text_color)
+        self.text_rect = self.text_obj.get_rect()
+        self.text_rect.topleft = (x,y)
+        self.game_window.blit(self.text_obj,self.text_rect)
+
+    def Terminate(self):
+        self.pygame.quit()
+        self.sys.exit()
+
+    def WaitForPlayerToPressKey(self,window_length,window_width):
+        while True:
+            for event in pygame.event.get():
+                if event.type == QUIT:
+                    self.Terminate()
+                if event.type == KEYDOWN:
+                    if event.key == K_ESCAPE:
+                        self.Terminate()
+                    return
+
+
+
+
+
 
 
 class Main(Break_Brick, Rect, Ball, Brick, Ball_Collision, Score, Win, Good_Game):
-    def __init__(self, *args, **kw):
+    def __init__(self):
         super(Main, self).__init__(window_length= 600, window_width=500,
                                    game_window=pygame.display.set_mode(),
                                    window_color=(0,0,0))
         super(Break_Brick, self).__init__(window_length= 600, window_width=500,
                                           paddle_color = (255,0,0),paddle_length = 100,paddle_width = 10)
-        super(Rect, self).__init__(rect_color = (255,0,0),rect_length = 100,rect_wide = 10,
-                                   color=(255, 200, 255), move_x=6, move_y=6, R=10)
-        super(Ball, self).__init__(color = (255,200,255),move_x = 6,move_y = 6,R = 10,
-                                   brick_color=(150, 0, 255),
+        super(Rect, self).__init__(color=(255, 200, 255), move_x=6, move_y=6, R=10)
+        super(Ball, self).__init__(brick_color=(150, 0, 255),
                                    brick_list=[[1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1],
                                                [1, 1, 1, 1, 1, 1, 1],
                                                [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]],
@@ -292,6 +329,21 @@ class Main(Break_Brick, Rect, Ball, Brick, Ball_Collision, Score, Win, Good_Game
                                              )
         super(Score, self).__init__(win_font = pygame.font.SysFont('arial', 80), win_sign = 0)
         super(Win, self).__init__(over_font = 1, over_sign = 1)
+
+
+
+        game_start_font = pygame.font.SysFont(None, 48)
+        game_window = pygame.display.set_mode((WINDOW_LENGTH, WINDOW_WIDTH), 0, 32)
+        f = First_Page()
+        f.Drawtext('START THE GAME.', game_start_font, game_window,
+                   WINDOW_WIDTH / 3 + 50 , (WINDOW_LENGTH / 4 + 5))
+        f.Drawtext('Press any key to start.', game_start_font, game_window,
+                   (WINDOW_WIDTH / 3) + 25, (WINDOW_LENGTH / 3) + 15)
+        pygame.display.update()
+        f.WaitForPlayerToPressKey(WINDOW_LENGTH, WINDOW_WIDTH)
+        # font = pygame.font.SysFont('Arial', 18)
+
+
         # Define the sign for starting the game
         start_sign = 0
 
