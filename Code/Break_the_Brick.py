@@ -260,7 +260,7 @@ class Score():
 
     def countscore(self):
         # Show the score
-        my_score = self.score_font.render(str(self.score), False, (255, 100, 150))
+        my_score = self.score_font.render("Numbers you break the break is:"+str(self.score), False, (255, 100, 150))
         self.game_window.blit(my_score, (10, 15))
 
 
