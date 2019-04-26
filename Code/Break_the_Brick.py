@@ -23,7 +23,6 @@ class Break_Brick():
         # Write the title of the game
         pygame.display.set_caption("Break the Brick")
 
-
         # Define the color of the window
         self.window_color = (0, 0, 0)
 
@@ -34,19 +33,21 @@ class Break_Brick():
 
 class Ball():
     #  Class for the ball
-    def __init__(self,color,move_x,move_y,R):
+    def __init__(self,color,move_x = 6,move_y = 6,R = 8):
         # Define the color and move rate of x-axis and y-axis and the radius of the ball
-        self.move_x = 6
-        self.move_y = 6
-        self.R = 8
+        self.move_x = move_x
+        self.move_y = move_y
+        self.R = R
         self.color = (255, 200, 255)
+
+
 
     def location_of_ball(self):
         # First time x-axis of the ball is wherever the mouse is、
-        self.ball_x = self.mouse_x
+        self.ball_x = 200
 
         #First time the y-axis of ball is exactly on the paddle
-        self.ball_y = self.window_width -  self.R - self.paddle_width
+        self.ball_y = 400
 
         # Use function to draw a ball
         pygame.draw.circle(self.game_window, self.color, (self.ball_x, self.ball_y), self.R)
@@ -68,35 +69,36 @@ class Ball():
             self.over_sign = 1
 
 
-class Rect():
+class Paddle():
     # Class of the paddle
-    def __init__(self, paddle_color,paddle_length,paddle_width,*args, **kw):
+    def __init__(self, paddle_color,paddle_length,paddle_width):
         self.paddle_color = (100, 255, 255)
         self.paddle_length = 90
         self.paddle_width = 20
 
+    # does not move the paddle, only detects what the mouse does, and calls move_paddle
     def motation_of_paddle(self):
         # Get the position of the mouse
-        self.mouse_x, self.mouse_y = pygame.mouse.get_pos()
+        self.paddle_x, self.paddle_y = pygame.mouse.get_pos()
         # Make the boundary of paddle and draw the paddle
 
         # Make sure the paddle inside of the right boundary of the window
-        if self.mouse_x >= self.window_length - self.paddle_length // 2:
-            self.mouse_x = self.window_length - self.paddle_length // 2
+        if self.paddle_x >= self.window_length - self.paddle_length // 2:
+            self.paddle_x = self.window_length - self.paddle_length // 2
 
         # Make sure the paddle inside of the left boundary of the window
-        if self.mouse_x <= self.paddle_length // 2:
-            self.mouse_x = self.paddle_length // 2
+        if self.paddle_x <= self.paddle_length // 2:
+            self.paddle_x = self.paddle_length // 2
+
         pygame.draw.rect(self.game_window, self.paddle_color, (
-        (self.mouse_x - self.paddle_length // 2), (self.window_width - self.paddle_width), self.paddle_length, self.paddle_width))
-
-
+        (self.paddle_x - self.paddle_length // 2), (self.window_width - self.paddle_width), self.paddle_length, self.paddle_width))
 
 class Ball_Collision():
     # Collision between window and ball
     def ball_window(self):
         if self.ball_x <= self.R or self.ball_x >= (self.window_length - self.R):
             self.move_x = -self.move_x
+            print(self.move_x)
         if self.ball_y <= self.R:
             self.move_y = -self.move_y
 
@@ -107,11 +109,11 @@ class Ball_Collision():
         self.collision_sign_x = 0
         self.collision_sign_y = 0
 
-        if self.ball_x < (self.mouse_x - self.paddle_length // 2):
-            self.closestpoint_x = self.mouse_x - self.paddle_length // 2
+        if self.ball_x < (self.paddle_x - self.paddle_length // 2):
+            self.closestpoint_x = self.paddle_x - self.paddle_length // 2
             self.collision_sign_x = 1
-        elif self.ball_x > (self.mouse_x + self.paddle_length // 2):
-            self.closestpoint_x = self.mouse_x + self.paddle_length // 2
+        elif self.ball_x > (self.paddle_x + self.paddle_length // 2):
+            self.closestpoint_x = self.paddle_x + self.paddle_length // 2
             self.collision_sign_x = 2
         else:
             self.closestpoint_x = self.ball_x
@@ -248,6 +250,7 @@ class Brick():
             self.win_sign = 1
 
 
+
 class Score():
     def __init__(self,score,score_font,point):
         # Initial score is 0
@@ -260,7 +263,7 @@ class Score():
 
     def countscore(self):
         # Show the score
-        my_score = self.score_font.render("Numbers you break the break is:"+str(self.score), False, (255, 100, 150))
+        my_score = self.score_font.render("Numbers you break the break is:"+str(self.score) + "  " +"pieces", False, (255, 100, 150))
         self.game_window.blit(my_score, (10, 15))
 
 
@@ -310,14 +313,13 @@ class First_Page():
 
 
 
-class Main(Break_Brick, Rect, Ball, Brick, Ball_Collision, Score, Win, Good_Game):
+class Main(Break_Brick, Paddle, Ball, Brick, Ball_Collision, Score, Win, Good_Game):
     def __init__(self):
         super(Main, self).__init__(window_length= 600, window_width=500,
                                    game_window=pygame.display.set_mode(),
                                    window_color=(0,0,0))
-        super(Break_Brick, self).__init__(window_length= 600, window_width=500,
-                                          paddle_color = (255,0,0),paddle_length = 100,paddle_width = 10)
-        super(Rect, self).__init__(color=(255, 200, 255), move_x=6, move_y=6, R=10)
+        super(Break_Brick, self).__init__(paddle_color = (255,0,0),paddle_length = 100,paddle_width = 10)
+        super(Paddle, self).__init__(color=(255, 200, 255), move_x=6, move_y=6, R=10)
         super(Ball, self).__init__(brick_color=(150, 0, 255),
                                    brick_list=[[1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1],
                                                [1, 1, 1, 1, 1, 1, 1],
@@ -330,20 +332,15 @@ class Main(Break_Brick, Rect, Ball, Brick, Ball_Collision, Score, Win, Good_Game
         super(Score, self).__init__(win_font = pygame.font.SysFont('arial', 80), win_sign = 0)
         super(Win, self).__init__(over_font = 1, over_sign = 1)
 
-
-
         game_start_font = pygame.font.SysFont(None, 48)
-        game_window = pygame.display.set_mode((WINDOW_LENGTH, WINDOW_WIDTH), 0, 32)
+        game_window = pygame.display.set_mode((WINDOW_LENGTH , WINDOW_WIDTH ), 0, 32)
         f = First_Page()
-        f.Drawtext('START THE GAME.', game_start_font, game_window,
-                   WINDOW_WIDTH / 3 + 50 , (WINDOW_LENGTH / 4 + 5))
-        f.Drawtext('Press any key to start.', game_start_font, game_window,
-                   (WINDOW_WIDTH / 3) + 25, (WINDOW_LENGTH / 3) + 15)
+        f.Drawtext('LET US START THE GAME', game_start_font, game_window,
+                   ( WINDOW_WIDTH / 3 + 20) , (WINDOW_LENGTH / 4 + 5))
+        f.Drawtext('Press any key to start', game_start_font, game_window,
+                   (WINDOW_WIDTH / 3) + 30, (WINDOW_LENGTH / 3) + 15)
         pygame.display.update()
         f.WaitForPlayerToPressKey(WINDOW_LENGTH, WINDOW_WIDTH)
-        # font = pygame.font.SysFont('Arial', 18)
-
-
         # Define the sign for starting the game
         start_sign = 0
 
