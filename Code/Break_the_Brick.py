@@ -40,14 +40,8 @@ class Ball():
         self.R = R
         self.color = (255, 200, 255)
 
-
-
     def location_of_ball(self):
-        # First time x-axis of the ball is wherever the mouse is、
-        self.ball_x = 200
-
-        #First time the y-axis of ball is exactly on the paddle
-        self.ball_y = 400
+        self.ball_x ,self.ball_y = (30 , 569)
 
         # Use function to draw a ball
         pygame.draw.circle(self.game_window, self.color, (self.ball_x, self.ball_y), self.R)
@@ -331,7 +325,7 @@ class Main(Break_Brick, Paddle, Ball, Brick, Ball_Collision, Score, Win, Good_Ga
         super(Score, self).__init__(win_font = pygame.font.SysFont('arial', 80), win_sign = 0)
         super(Win, self).__init__(over_font = 1, over_sign = 1)
 
-        game_start_font = pygame.font.SysFont(None, 48)
+        game_start_font = pygame.font.SysFont("arial", 30)
         game_window = pygame.display.set_mode((WINDOW_LENGTH , WINDOW_WIDTH ), 0, 32)
         f = First_Page()
         f.Drawtext('LET US START THE GAME', game_start_font, game_window,
