@@ -1,5 +1,5 @@
 import pygame
-from Code.Break_the_Brick import Ball_Collision, Ball, Break_Brick
+from Code.Break_the_Brick import Code.Ball_Collision, Ball, Break_Brick
 
 
 a = Ball(move_x = 6, move_y = 6, R = 9, color = (255,200,255))
