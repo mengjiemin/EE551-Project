@@ -49,4 +49,4 @@
             
 ## Expected Result:
              
- ![snip](https://github.com/mengjiemin/EE551-Project/blob/master/pics for game/Expected pic for the game.png)
+ ![snip](https://github.com/mengjiemin/EE551-Project/blob/master/pics%20for%20game/Expected%20pic%20for%20the%20game.png)
