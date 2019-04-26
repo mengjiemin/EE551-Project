@@ -2,12 +2,6 @@ import pygame
 from Code.Break_the_Brick import Ball_Collision, Ball, Break_Brick
 
 
-a = Ball(move_x = 6, move_y = 6, R = 9, color = (255,200,255))
-a.window_length = 800
-a.window_width = 600
-a.game_window = pygame.display.set_mode((a.window_length, a.window_width))
-b = Ball_Collision
-
 
 def ball_window(Ball):
     if Ball.ball_x <= Ball.R or Ball.ball_x >= (Ball.window_length - Ball.R):
@@ -18,6 +12,11 @@ def ball_window(Ball):
 
 
 def test_sample():
+    a = Ball(move_x=6, move_y=6, R=9, color=(255, 200, 255))
+    a.window_length = 800
+    a.window_width = 600
+    a.game_window = pygame.display.set_mode((a.window_length, a.window_width))
+    b = Ball_Collision
     a.ball_x = 7
     a.ball_y = 6
     ball_window(a)

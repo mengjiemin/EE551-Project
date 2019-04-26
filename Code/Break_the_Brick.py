@@ -59,7 +59,7 @@ class Ball():
         # Set failure condition and show character " Good Game! "
         if self.ball_y > 600:
             self.gameover = self.over_font.render("Good Game!", False, (0, 255, 0))
-            self.game_window.blit(self.gameover, (100, 250))
+            self.game_window.blit(self.gameover, (200, 300))
             self.over_sign = 1
 
 

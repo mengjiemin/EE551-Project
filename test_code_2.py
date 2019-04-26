@@ -13,9 +13,8 @@ def ball_rect(Ball,Paddle):
 
     while distance < Ball.R and collision_sign_y == 1 and collision_sign_x == 1 :
         if collision_sign_x == 1 and Ball.move_x > 0:
-            Ball.move_x =  - Ball.move_x
+            Ball.move_x =   Ball.move_x
             break
-            Ball.move_y = - Ball.move_y
         if collision_sign_x == 1 and Ball.move_x < 0:
             Ball.move_y = - Ball.move_y
             break
@@ -23,6 +22,6 @@ def ball_rect(Ball,Paddle):
 
 def test_code_2():
     ball_rect(a,b)
-    assert(a.move_x == -6)
+    assert(a.move_y == 6)
 
 test_code_2()
