@@ -98,7 +98,6 @@ class Ball_Collision():
     def ball_window(self):
         if self.ball_x <= self.R or self.ball_x >= (self.window_length - self.R):
             self.move_x = -self.move_x
-            print(self.move_x)
         if self.ball_y <= self.R:
             self.move_y = -self.move_y
 
