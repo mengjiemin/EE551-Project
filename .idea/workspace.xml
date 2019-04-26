@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591d0a7a-c1b5-4ce5-be61-5a4ba8fa6579" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test_code.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,9 +14,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/EE551_Project$scratch_18.coverage" NAME="scratch_18 Coverage Results" MODIFIED="1556238314019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/EE551_Project$scratch_13__1_.coverage" NAME="scratch_13 (1) Coverage Results" MODIFIED="1555702754936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/EE551_Project$test_code_2.coverage" NAME="test_code_2 Coverage Results" MODIFIED="1556287660677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EE551_Project$test_code_2.coverage" NAME="test_code_2 Coverage Results" MODIFIED="1556305229875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EE551_Project$project.coverage" NAME="project Coverage Results" MODIFIED="1556037145394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/untitled" />
-    <SUITE FILE_PATH="coverage/EE551_Project$test_code.coverage" NAME="test_code Coverage Results" MODIFIED="1556289713513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EE551_Project$test_code.coverage" NAME="test_code Coverage Results" MODIFIED="1556290150972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EE551_Project$Break_the_Brick.coverage" NAME="Break_the_Brick Coverage Results" MODIFIED="1556284724122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
     <SUITE FILE_PATH="coverage/EE551_Project$scratch_13.coverage" NAME="scratch_13 Coverage Results" MODIFIED="1555701166337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
@@ -69,25 +69,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="11" />
+          <entry key="Python" value="13" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="py" value="2273" />
+          <entry key="py" value="2340" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="2065" />
+          <entry key="Python" value="2132" />
           <entry key="Scratch" value="208" />
         </counts>
       </usages-collector>
@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/Break_the_Brick.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="105" column="31" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#120#133#0" expanded="true" />
                 <marker date="1556284489000" expanded="true" signature="3175:3176" ph="..." />
@@ -110,10 +110,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test_Code/test_code.py">
+        <entry file="file://$PROJECT_DIR$/test_code_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="44">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -145,12 +145,12 @@
         <option value="$PROJECT_DIR$/window.py" />
         <option value="$PROJECT_DIR$/Break_the_Brick.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_18.py" />
-        <option value="$PROJECT_DIR$/test_code.py" />
-        <option value="$PROJECT_DIR$/test_code_2.py" />
         <option value="$PROJECT_DIR$/Code/Break_the_Brick.py" />
         <option value="$PROJECT_DIR$/Test Code/test_code_2.py" />
         <option value="$PROJECT_DIR$/Test Code/test_code.py" />
         <option value="$PROJECT_DIR$/Test_Code/test_code.py" />
+        <option value="$PROJECT_DIR$/test_code.py" />
+        <option value="$PROJECT_DIR$/test_code_2.py" />
       </list>
     </option>
   </component>
@@ -182,11 +182,6 @@
             <path>
               <item name="EE551-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="EE551-Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EE551-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EE551-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Test_Code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EE551-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_code">
+  <component name="RunManager" selected="Python.test_code_2">
     <configuration name="Break the Brick" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE551-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -354,8 +349,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_code" />
         <item itemvalue="Python.test_code_2" />
+        <item itemvalue="Python.test_code" />
         <item itemvalue="Python.Break_the_Brick" />
         <item itemvalue="Python.scratch_18" />
         <item itemvalue="Python.Break the Brick" />
@@ -376,15 +371,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="686" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="686" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22859451" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22859451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28787878" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28787878" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,24 +447,7 @@
     <entry file="file://$USER_HOME$/homework5-a-mengjiemin/tests/test_isPalindrome.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_code_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test Code/test_code_2.py" />
-    <entry file="file://$PROJECT_DIR$/test_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test Code/test_code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -477,10 +455,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Code/test_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Code/Break_the_Brick.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="105" column="31" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#120#133#0" expanded="true" />
             <marker date="1556284489000" expanded="true" signature="3175:3176" ph="..." />
@@ -489,10 +487,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Code/test_code.py">
+    <entry file="file://$PROJECT_DIR$/test_code_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="44">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
