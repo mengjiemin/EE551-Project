@@ -256,7 +256,8 @@ class Score():
 
     def countscore(self):
         # Show the score
-        my_score = self.score_font.render("Numbers you break the break is:"+str(self.score) + "  " +"pieces", False, (255, 100, 150))
+        my_score = self.score_font.render("Numbers you break the break is:"+str(self.score) + "  " +"pieces", False,
+                                          (255, 100, 150))
         self.game_window.blit(my_score, (10, 15))
 
 
@@ -284,7 +285,6 @@ class First_Page():
         self.text_rect = self.text_obj.get_rect()
         self.text_rect.topleft = (x,y)
         self.game_window.blit(self.text_obj,self.text_rect)
-        return True
 
     def Terminate(self):
         self.pygame.quit()
@@ -299,10 +299,6 @@ class First_Page():
                     if event.key == K_ESCAPE:
                         self.Terminate()
                     return
-
-
-
-
 
 
 
