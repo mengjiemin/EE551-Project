@@ -24,8 +24,8 @@
  
 ## Game Logic:
              1. When the ball bounce at bricks they will disappear
-             2. When the back plate cannot catch the ball the screen wil8l show "Game Over"
-             3. When all bricks disappear with the hit from the ball the screen wil show "You Win The Game"
+             2. When the back plate cannot catch the ball the screen wil8l show "Good Game"
+             3. When all bricks disappear with the hit from the ball the screen wil show "Winner Winner"
              
              
 ## Plan:
